@@ -1,14 +1,19 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
+import Routes from "./routes";
+
 import Header from './components/Header';
 import Main from './page/main'
-import api from './service/api'
+
 import "./styless.css"
+
+
+
 
 
 const App = () =>(
   <div className="App">
      <Header />
-     <Main />
+     <Routes />
     </div>
 );
 
